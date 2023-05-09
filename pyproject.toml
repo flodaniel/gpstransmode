@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gpstransmode"
+version = "0.1.0"
+description = ""
+authors = ["Florian Daniel <florian@rideamigos.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+geopy = "^2.3.0"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
